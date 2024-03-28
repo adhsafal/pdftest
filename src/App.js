@@ -1,9 +1,10 @@
 import "./App.css";
+import DisplayPdf from "./Components/PDFComponent/DisplayPdf";
 
 function App() {
   return (
     <div className="App">
-      <p>hello just testing pdf view</p>
+      <DisplayPdf />
     </div>
   );
 }
